@@ -9,9 +9,19 @@
     max-width: 550px;
 }
 
-#translateBtn {
+#translate-Btn {
     margin-inline-start: 45%;
     padding: 0.2rem;
     font-size: large;
-    border: 1.5px solid black;
+}
+
+#output {
+    border: 1px solid black;
+    width: 75%;
+    height: 20vh;
+    max-width: 550px;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
