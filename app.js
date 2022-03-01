@@ -2,14 +2,14 @@ var btnTranslate = document.querySelector("#translate-Btn");
 var textInput = document.querySelector("#textarea");
 var outputDiv = document.querySelector("#output");
 
-var url = "https://api.funtranslations.com/translate/ferb-latin.jso";
+var url = "https://api.funtranslations.com/translate/ferb-latin.json";
 
 function serverURL(text) {
     return url + "?" + "text=" + text
 };
 
 function errorHandler(error) {
-    console.log("error occured" + error)
+    console.log("error occured " + error)
 };
 
 function clickHandler() {
