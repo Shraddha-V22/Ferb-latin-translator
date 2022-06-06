@@ -23,9 +23,20 @@ body {
     padding: 1rem;
 }
 
+.article {
+    color: var(--bg-color);
+}
+
+#main {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #textarea {
     display: block;
-    width: 75%;
+    width: 70vw;
     height: 20vh;
     margin: 1rem;
     padding: 1rem;
@@ -35,15 +46,15 @@ body {
 }
 
 #translate-Btn {
-    margin-inline-start: 45%;
     padding: 0.2rem;
     font-size: large;
     background-color: var(--cream-color);
+    border: 1px solid black;
 }
 
 #output {
     border: 1px solid black;
-    width: 75%;
+    width: 70vw;
     height: 20vh;
     max-width: 550px;
     margin: 1rem;
@@ -56,7 +67,7 @@ body {
 .output-header {
     padding-top: 1rem;
     font-size: larger;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .container-center {
@@ -65,8 +76,24 @@ body {
     max-width: 500px;
 }
 
-.footer {
+#footer {
     background-color: var(--violet-color);
-    padding: 2rem;
+    padding: 2rem 0 0.5rem 0;
+    text-align: center;
+    margin-top: 1rem;
 }
 
+#footer #list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+#footer #list .social{
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.ionicons {
+    font-size: 32px;
+    color: var(--cream-color);
+}
