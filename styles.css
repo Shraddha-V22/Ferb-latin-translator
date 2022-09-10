@@ -2,6 +2,7 @@
 
 :root {
     --cream-color: #fcf19e;
+    --cream-tinted: #f8ea7e;
     --violet-color: #7e22ce;
     --bg-color: #fefce8;
 }
@@ -46,10 +47,21 @@ body {
 }
 
 #translate-Btn {
-    padding: 0.2rem;
+    padding: 5px 10px;
     font-size: large;
     background-color: var(--cream-color);
-    border: 1px solid black;
+    border: 1px solid var(--cream-tinted);
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0) 0px 1px 2px 0px;
+    cursor: pointer;
+}
+
+#translate-Btn:hover {
+    background-color: var(--cream-tinted);
+}
+
+#translate-Btn:active {
+    box-shadow: inset rgba(0, 0, 0) 0px 1px 2px 0px;
 }
 
 #output {
